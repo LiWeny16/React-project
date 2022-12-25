@@ -1,3 +1,4 @@
+import { createRoot } from 'react-dom/client';
 class App2 extends Component {
     render() {
         return (
@@ -12,3 +13,5 @@ class App2 extends Component {
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(<App2 tab="home" />);
+
+console.log("我被加载了");
