@@ -1,17 +1,17 @@
 // import { createRoot } from 'react-dom/client';
-// class App2 extends Component {
-//     render() {
-//         return (
-//             <div id="ReactDiv">
-//                 <h2>数字为：{num}</h2>
-//                 <button onClick={() => { console.log(123); }}>累加</button>
-//             </div>
-//         )
-//     }
-// }
+class App2 extends Component {
+    render() {
+        return (
+            <div id="ReactDiv">
+                <h2>数字为：{num}</h2>
+                <button onClick={() => { console.log(123); }}>累加</button>
+            </div>
+        )
+    }
+}
 
-// const container = document.getElementById('root');
-// const root = createRoot(container); // createRoot(container!) if you use TypeScript
-// root.render(<App2 tab="home" />);
+const container = document.getElementById('root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(<App2 tab="home" />);
 alert("我被加载了")
 console.log("我被加载了");
